@@ -1,0 +1,65 @@
+
+table ,tr ,td ,th 
+{
+    
+    background-color: rgb(219, 223, 228);
+    margin: 0 auto;
+    width: 600px;
+    height: 90px;
+}
+
+body 
+{
+background-color: rgb(146, 35, 35);
+font-family: 'Arial', sans-serif;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+textarea 
+{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c4d1ca;
+    border-radius: 5px;
+}
+
+label 
+{
+    margin-top: 0 auto;
+    display: block;
+}
+
+.center 
+{
+    text-align: center;
+}
+
+.left 
+{
+    text-align: left;
+}
+
+.right
+{
+    text-align: right;
+}
+
+button 
+{
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    align-self: center;
+}
+input[type="radio"],
+input[type="checkbox"]
+{
+    margin-right: 10px;
+}

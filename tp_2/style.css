@@ -1,0 +1,75 @@
+
+img
+{
+  height: 200px;
+  max-width: 450px;
+}
+.container 
+{
+  display: flex;
+  justify-content: space-between; 
+  padding: 40px;
+  width: 650px;
+  flex: 7; 
+ 
+}
+
+.circulo
+  {
+    line-height: 1.0; 
+    width: 400px;
+
+  }
+  .curva
+  {
+
+    right: 0;
+    top: 1;
+    width: 350px;
+  }
+
+  h1
+  {
+    font-size: 45px;
+  }
+  h2
+  {
+    font-size: 20px;
+
+  }
+
+  p
+  {
+    text-align: justify;
+   font-size: 20px;
+       
+  }
+  .patrick 
+  {
+    text-align: justify;
+    font-size: 14px;
+    color: rgb(158, 158, 158);
+    width: 300px;
+  }
+  
+  .lado 
+  {
+    text-align: center;
+    color: purple;
+  }
+  
+  .negrita 
+  {
+    font-weight: 700;
+  }
+  
+  .subrayado 
+  {
+    text-decoration: underline;
+    color: rgb(7, 7, 209);
+  }
+  
+  .cursiva 
+  {
+    font-style: italic;
+  }

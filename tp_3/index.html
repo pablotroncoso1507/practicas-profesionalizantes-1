@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+        <body class="label">
+            <h1 class="center">Formulario de encuesta</h1>
+            <p class="center">Ayúdanos a saber cómo podemos mejorar</p>
+                <table>
+                            <td class="right">nombre</td>
+                            <td class="center"><input type="text" placeholder="Ingrese su nombre" required></td>
+                </table>
+                <table>
+                            <td class="right">E-mail</td>
+                            <td  class="center"><input type="text"  placeholder="ingrese su E-mail"></td>
+                </table>
+                <table>
+                            <td class="right">Fecha de nacimiento:</td>
+                            <td  class="center"><input type="date" id="fecha" name="fecha"></td>
+                </table>
+
+                <table>
+                            <td class="right"> rol : </td>
+                            <td  class="center">
+                                <select>
+                                <option value="estudiante">Estudiante</option>
+                                <option value="profesor">Profesor</option>
+                                <option value="otro">Otro</option>
+                            </select> </td>
+                </table>
+                <table>
+                            <td class="right">¿Recomendarías esta carrera a otras personas?</td>
+                            <td><input type="radio" name="recomendacion" value="definitivamente"> Definitivamente</label>
+                            <label><input type="radio" name="recomendacion" value="quizas"> Quizás</label>
+                            <label><input type="radio" name="recomendacion" value="no"> No</label></td> 
+                </table>
+
+                <table>
+                            <td class="right">¿Qué es lo que más te gusta de esta carrera?</td>
+                            <td  class="center">
+                                <select>
+                                <option value="teorica">La parte teórica</option>
+                                <option value="practica">La parte práctica</option>
+                                </select>
+                            </td>
+                </table>
+                <table>
+                            <td class="right">¿Qué cosas piensas que pueden mejorarse en un futuro?</td>
+                          
+                            <td>
+                                
+                                <div><input type="checkbox"> Trabajos prácticos</div>
+                                <div><input type="checkbox" name="mejoras" value="evaluaciones"> Evaluaciones</div>
+                                <div><input type="checkbox" name="mejoras" value="tutores"> Tutores de cátedra</div>
+                                <div><input type="checkbox" name="mejoras" value="plan"> Plan de materias</div>
+                                <div><input type="checkbox" name="mejoras" value="tesis"> Acompañamiento a tesis</div>
+                                <div><input type="checkbox" name="mejoras" value="horarios"> Horarios</div>
+                                <div><input type="checkbox" name="mejoras" value="correlativas"> Plan de correlativas</div>
+                                <div><input type="checkbox" name="mejoras" value="material"> Material de estudio</div>
+                                <div><input type="checkbox" name="mejoras" value="practicas"> Prácticas profesionales</div>
+                                <div><input type="checkbox" name="mejoras" value="solidarias"> Prácticas solidarias</div>
+                                <div><input type="checkbox" name="mejoras" value="innovacion"> Innovación</div>
+                                </div>
+                            </td>
+                            
+                </table>
+                <table>
+                            <td class="right">¿Tiene algún comentario o sugerencia?</td>
+                            <td><textarea id="comentarios" name="comentarios" placeholder="Ingrese su comentario..."></textarea></td>
+                </table>
+                <table>
+                    <td class="center"><button type="submit">Enviar</button></td>
+                </table>
+
+                
+        
+            </body>
+</html>
+
+
+

@@ -1,0 +1,75 @@
+
+/* ETIQUETAS H Y P */
+.centrado {
+    text-align: center;
+}
+
+.izquierda {
+    text-align: left;
+}
+
+
+/* TITULO Y SUBTITULO */
+.textoh1 {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    background-color: bisque;
+    font: Arial;
+}
+
+.textoh2 {
+    color: blueviolet;
+    text-align: center;
+    font-size: 63%;
+    text-decoration-line: underline;
+}
+
+
+/* PARRAFO */
+
+.s1 {
+     text-decoration: underline;
+}
+
+.s2{
+    background-color: yellow;
+}
+
+.s3{
+    color: lightblue;
+    font-style: oblique;
+}
+
+.s4{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.s5{
+    font-weight: bold;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.s6{
+    color: red;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.s7{
+    font-size: smaller;
+    font-family:'Courier New', Courier, monospace;
+    font-style: normal;
+}
+
+.s8{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.s9{
+    background-color: green;
+}
